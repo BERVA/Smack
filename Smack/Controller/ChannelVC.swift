@@ -10,6 +10,10 @@ import UIKit
 
 class ChannelVC: UIViewController {
     @IBOutlet weak var loginBtn: UIButton!
+    // Create Account VC kapatıldığında buraya dönmek için eklendi.
+    @IBAction func preparForUnWind(segue: UIStoryboardSegue){
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
